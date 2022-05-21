@@ -9,22 +9,22 @@ public class Main {
         Machine iseki = new Machine("イセキ", "６条コンバイン", 15650000);
 
 
-        System.out.println(kubota.getName() + kubota.getType() + "の価格は" + kubota.getPrics() + "円です。");
+        System.out.println(kubota.getName() + kubota.getType() + "の価格は" + kubota.getPrice() + "円です。");
         kubota.setType("８条田植機");
-        kubota.getPrics(5232500);
+        kubota.getPrice(5232500);
 
-        System.out.println(yanmar.getName() + yanmar.getType() + "の価格は" + yanmar.getPrics() + "円です。");
+        System.out.println(yanmar.getName() + yanmar.getType() + "の価格は" + yanmar.getPrice() + "円です。");
         yanmar.setType("８条田植機");
-        yanmar.getPrics(5120500);
+        yanmar.getPrice(5120500);
 
-        System.out.println(iseki.getName() + iseki.getType() + "の価格は" + iseki.getPrics() + "円です。");
+        System.out.println(iseki.getName() + iseki.getType() + "の価格は" + iseki.getPrice() + "円です。");
         iseki.setType("７条田植機");
-        iseki.getPrics(3036000);
+        iseki.getPrice(3036000);
 
 
-        System.out.println(kubota.getName() + kubota.getType() + "の価格は" + kubota.getPrics() + "円です。");
-        System.out.println(yanmar.getName() + yanmar.getType() + "の価格は" + yanmar.getPrics() + "円です。");
-        System.out.println(iseki.getName() + iseki.getType() + "の価格は" + iseki.getPrics() + "円です。");
+        System.out.println(kubota.getName() + kubota.getType() + "の価格は" + kubota.getPrice() + "円です。");
+        System.out.println(yanmar.getName() + yanmar.getType() + "の価格は" + yanmar.getPrice() + "円です。");
+        System.out.println(iseki.getName() + iseki.getType() + "の価格は" + iseki.getPrice() + "円です。");
 
 
         if (kubota.getName().equals("クボタ")) {

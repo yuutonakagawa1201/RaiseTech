@@ -1,12 +1,12 @@
 public class Machine {
     private String name;
     private String type;
-    private int prics;
+    private int price;
 
     public Machine(String name, String type, int prics) {
         this.name = name;
         this.type = type;
-        this.prics = prics;
+        this.price = prics;
     }
 
     public String getName() {
@@ -25,13 +25,14 @@ public class Machine {
         this.type = type;
     }
 
-    public int getPrics() {
-        return prics;
+    public int getPrice() {
+        return price;
     }
 
-    public void getPrics(int prics) {
-        this.prics = prics;
+    public void getPrice(int prics) {
+        this.price = prics;
     }
+
 
 
 
