@@ -11,15 +11,15 @@ public class Main {
 
         System.out.println(kubota.getName() + kubota.getType() + "の価格は" + kubota.getPrice() + "円です。");
         kubota.setType("８条田植機");
-        kubota.getPrice(5232500);
+        kubota.setPrice(5232500);
 
         System.out.println(yanmar.getName() + yanmar.getType() + "の価格は" + yanmar.getPrice() + "円です。");
         yanmar.setType("８条田植機");
-        yanmar.getPrice(5120500);
+        yanmar.setPrice(5120500);
 
         System.out.println(iseki.getName() + iseki.getType() + "の価格は" + iseki.getPrice() + "円です。");
         iseki.setType("７条田植機");
-        iseki.getPrice(3036000);
+        iseki.setPrice(3036000);
 
 
         System.out.println(kubota.getName() + kubota.getType() + "の価格は" + kubota.getPrice() + "円です。");
@@ -43,8 +43,8 @@ public class Main {
                 new Machine("ヤンマー", "アカ",2),
                 new Machine("イセキ", "アオ", 3));
         for (Machine machine : machinelist){
-            System.out.println("農機具メーカー " + machine.getName());
-            System.out.println("特徴的な色 " + machine.getType());
+            System.out.println("農機具メーカーの" + machine.getName() + "の");
+            System.out.println("特徴的な色は" + machine.getType() + "です。");
         }
 
 

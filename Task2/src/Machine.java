@@ -29,9 +29,11 @@ public class Machine {
         return price;
     }
 
-    public void getPrice(int prics) {
-        this.price = prics;
+    public void setPrice(int price) {
+        this.price = price;
     }
+
+
 
 
 
