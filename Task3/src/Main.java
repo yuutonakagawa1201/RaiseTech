@@ -1,3 +1,4 @@
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,11 +14,14 @@ public class Main {
         System.out.println(userMap.get("イセキ"));
 
         String [] name = {"共立", "丸山", "昭信"};
-        int index = 3;
+
+        int string = 0;
         try{
-            System.out.println(name[index]);
+            System.out.println(name[string] + "は防除機メーカーです。");
         }catch (ArrayIndexOutOfBoundsException e){
-            System.out.println("配列の範囲を超えています。");
+            System.out.println(string + "番目は農業機械メーカーではありません。");
+        } finally {
+            System.out.println("最終処理です");
         }
     }
 }
