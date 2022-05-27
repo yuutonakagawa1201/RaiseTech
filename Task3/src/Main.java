@@ -8,9 +8,6 @@ public class Main {
         founding.put("ヤンマー", "創業者：山岡孫吉 設立：１９１２年");
         founding.put("イセキ", "創業者：井関邦三郎 設立：１９２６年");
 
-//        System.out.println(founding.get("クボタ"));
-//        System.out.println(founding.get("ヤンマー"));
-//        System.out.println(founding.get("イセキ"));
 
         for(Map.Entry<String, String> entry : founding.entrySet()){
             System.out.println(entry.getKey() + entry.getValue());
