@@ -3,18 +3,18 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
-        Map<String, String> founding = new HashMap<>();
-        founding.put("クボタ", "創業者：久保田権四郎 設立：１８９０年");
-        founding.put("ヤンマー", "創業者：山岡孫吉 設立：１９１２年");
-        founding.put("イセキ", "創業者：井関邦三郎 設立：１９２６年");
+        Map<String, String> company = new HashMap<>();
+        company.put("クボタ", "創業者：久保田権四郎 設立：１８９０年");
+        company.put("ヤンマー", "創業者：山岡孫吉 設立：１９１２年");
+        company.put("イセキ", "創業者：井関邦三郎 設立：１９２６年");
 
 
-        for(Map.Entry<String, String> entry : founding.entrySet()){
+        for(Map.Entry<String, String> entry : company.entrySet()){
             System.out.println(entry.getKey() + entry.getValue());
         }
 
 
-        founding.forEach((k , v) -> {
+        company.forEach((k , v) -> {
             System.out.println(k + v);
         });
 
@@ -35,6 +35,8 @@ public class Main {
         maker.add("丸山");
         maker.add("昭信");
 
+        for(i =0; i <maker.size(); i++)
+        System.out.println("防除機メーカーは" + maker.get(i) + "です。");
     }
 }
 
