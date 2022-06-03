@@ -9,7 +9,7 @@ public class Main {
         List<String> result = names.stream().filter(name -> name.contains("m")).toList();
         System.out.println(result);
 
-//        Mから始まる名前は？
+//        Mから始まる名前の件数は？
         long count = names.stream().filter(name -> name.startsWith("m")).count();
         System.out.println(count);
 
